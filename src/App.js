@@ -51,12 +51,12 @@ const App = () => {
           <form onSubmit={addTask}>
             <Flex mt='2%'>
               <Input value={newTask} onChange={e => setNewTask(e.target.value)} variant='flushed' placeholder='Add task' w='50%' />
-              <Button onClick={addTask} ml={5} bg='blue.400'>Add Task</Button>
+              <Button onClick={addTask} ml={5} bg='blue.400'>Add</Button>
             </Flex>
           </form>
           <Tabs mt='2%' w='100%'>
             <TabList>
-              <Tab>Incomplete Tasks</Tab>
+              <Tab>Doing List</Tab>
               <Tab>Completed Tasks</Tab>
             </TabList>
             <TabPanels>
