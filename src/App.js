@@ -56,8 +56,8 @@ const App = () => {
           </form>
           <Tabs mt='2%' w='100%'>
             <TabList>
-              <Tab>Doing List</Tab>
-              <Tab>Completed Tasks</Tab>
+              <Tab>Buy</Tab>
+              <Tab>Done</Tab>
             </TabList>
             <TabPanels>
               <TabPanel>
