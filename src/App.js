@@ -47,7 +47,7 @@ const App = () => {
     <>
       <Flex w='100%' h='100vh'>
         <Flex w='100%' flexDir='column' ml='20%' mt='5%' mr='20%' color='white'>
-          <Text fontWeight='700' fontSize={30}>Tasks</Text>
+          <Text fontWeight='700' fontSize={30}>Handy Note</Text>
           <form onSubmit={addTask}>
             <Flex mt='2%'>
               <Input value={newTask} onChange={e => setNewTask(e.target.value)} variant='flushed' placeholder='Add task' w='50%' />
